@@ -1,4 +1,4 @@
 #!/bin/bash
 
-javac -cp . *.java
-java main
+javac -cp .:./lib/hamcrest-core-1.3.jar:./lib/junit-4.12.jar *.java
+java -cp .:./lib/hamcrest-core-1.3.jar:./lib/junit-4.12.jar main
